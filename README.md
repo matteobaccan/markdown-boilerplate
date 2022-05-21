@@ -17,6 +17,23 @@ This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
+Here is a simple footnote[^1]. With some additional text after it.
+
+[^1]: My reference.
+
+
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### We can hide anything, even code!
+
+    ```ruby
+      puts "Hello World"
+    ```
+
+</p>
+</details>
 
 
 ### Here's a geoJSON map in markdown
@@ -564,17 +581,3 @@ graph TD
     C -->|Two| E[iPhone]
     C -->|Three| F[fa:fa-car Car]
 ```
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### We can hide anything, even code!
-
-    ```ruby
-      puts "Hello World"
-    ```
-
-</p>
-</details>
-
-
